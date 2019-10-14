@@ -1,7 +1,7 @@
- /* html {
+html {
     position: relative;
     min-height: 100%;
-}  */
+}
 
 body {
     background: url("../images/amy-humphries-2M_sDJ_agvs-unsplash.jpg");
@@ -56,7 +56,6 @@ body {
     color: white;
     border-color: rgb(185, 104, 11);
 }
-
 
 #gifArea {
     margin-top: 20px;

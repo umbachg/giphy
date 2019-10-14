@@ -15,7 +15,6 @@ var buttonGenerator = function () {
 
 $("#buttonArea").on("click", ".btn", function () {
     var thing = $(this).attr("data");
-    // var queryURL = "https://giphy.com/gifs/funy-33zX3zllJBGY8" + thing + "&api_key=hNtgbydTdkEn3j19ERzoN8Ohrl16XmXw&limit=10";
     var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + thing + "&api_key=hNtgbydTdkEn3j19ERzoN8Ohrl16XmXw&limit=10";
 
     $.ajax({
